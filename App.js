@@ -71,7 +71,7 @@ export default function App() {
   }
   return (
     <View style={styles.mainContainer}>
-      <StatusBar style="auto" />
+      <StatusBar style="light" />
       <View style={styles.mainHeader}>
         <TouchableOpacity style={{flexDirection: "row", alignItems: "center", justifyContent: "space-between"}} onPress={work}>
           <Text style={{...styles.btnText, marginRight: 10, color: working ? "white" : theme.grey}}>Work</Text>
